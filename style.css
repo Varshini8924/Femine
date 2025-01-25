@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Women's Mental Health</title>
+  <style>
+    /* General Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f9f9f9;
+    }
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 0 20px;
+    }
+
+    /* Header Styles */
+    header {
+      background: #f4b6c2;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    /* Navigation Bar */
+    nav {
+      background: #f8a5c2;
+      padding: 10px 0;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1rem;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #ffe3ed;
+    }
+
+    /* Section Styles */
+    section {
+      padding: 20px;
+      margin: 20px 0;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    section h2 {
+      font-size: 2rem;
+      color: #c04e66;
+      margin-bottom: 15px;
+    }
+    section h3 {
+      font-size: 1.5rem;
+      color: #f68ca0;
+      margin-top: 15px;
+    }
+    section p {
+      margin: 10px 0;
+      font-size: 1rem;
+    }
+    ul {
+      list-style-type: disc;
+      margin: 10px 20px;
+      padding-left: 20px;
+    }
+    ul li {
+      margin-bottom: 10px;
+    }
+
+    /* Button Styles */
+    .btn {
+      display: inline-block;
+      background: #c04e66;
+      color: white;
+      padding: 10px 15px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      margin-top: 10px;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #a03452;
+    }
+
+    /* Footer Styles */
+    footer {
+      background: #f4b6c2;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 20px;
+      font-size: 0.9rem;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      section {
+        padding: 15px;
+      }
+      nav a {
+        font-size: 0.9rem;
+        margin: 0 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Women's Mental Health</h1>
+      <p>Your guide to understanding and supporting mental health in women.</p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#disorders">Disorders</a>
+    <a href="#challenges">Challenges</a>
+    <a href="#resources">Resources</a>
+    <a href="#contact">Get Help</a>
+  </nav>
+
+  <section id="disorders" class="container">
+    <h2>Common Disorders in Women</h2>
+    <h3>PCOD (Polycystic Ovary Disorder)</h3>
+    <p>PCOD impacts both physical and mental health, often leading to anxiety, depression, and low self-esteem.</p>
+    
+    <h3>Postpartum Depression</h3>
+    <p>A condition affecting new mothers, characterized by feelings of sadness, anxiety, and exhaustion.</p>
+
+    <h3>Menstrual Disorders</h3>
+    <p>Conditions like PMS and PMDD affect emotional well-being and mental health during the menstrual cycle.</p>
+  </section>
+
+  <section id="challenges" class="container">
+    <h2>Mental Health Challenges at Different Life Stages</h2>
+    <h3>Adolescence</h3>
+    <p>Adolescents face challenges like body image issues, social pressures, and hormonal changes.</p>
+
+    <h3>Motherhood</h3>
+    <p>Balancing family, work, and personal needs can lead to mental health struggles in mothers.</p>
+
+    <h3>Middle Age and Senior Years</h3>
+   …
