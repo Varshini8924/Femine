@@ -1,0 +1,123 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    background: #f57185;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+  }
+  
+  header h1 {
+    font-size: 24px;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin: 0 10px;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    background-image: ;
+    text-decoration: none;
+    font-weight: bold;
+    
+  }
+  
+  /* Hero Section */
+  #hero {
+    
+    background-image:url(bgimg.png);
+    color: #fffefe;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #hero .container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  #hero h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  /* Features Section */
+  #features {
+    padding: 50px 20px;
+  }
+  
+  #features .container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  #features h3 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  #features .articles {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  #features .article {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    width: 30%;
+  }
+  
+  #features .article img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  #features .article h4 {
+    margin-top: 15px;
+    color: #f161a9;
+  }
+  
+  /* Footer */
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer .container {
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  footer .social-links a {
+    color: #ff69b4;
+    text-decoration: none;
+    margin: 0 10px;
+  }
